@@ -21,20 +21,20 @@ const Navbar = () => {
       </div>
       <div className={styles.item}>
         <ul className={styles.list}>
-        <li className={styles.listItem}>HomePage</li>
-        <li className={styles.listItem}>Products</li>
-        <Image src="/img/logo.png" width="160px" height="69px"  alt="logo"/>
-        <li className={styles.listItem}>Events</li>
-        <li className={styles.listItem}>Blogs</li>
-        <li className={styles.listItem}>Blogs</li>
+          <li className={styles.listItem}>HomePage</li>
+          <li className={styles.listItem}>Products</li>
+          <Image src="/img/logo.png" width="160px" height="69px" alt="logo" />
+          <li className={styles.listItem}>Events</li>
+          <li className={styles.listItem}>Blogs</li>
+          <li className={styles.listItem}>Blogs</li>
         </ul>
       </div>
       {/*== cart ====*/}
       <div className={styles.item}>
-            <div className={styles.cart}>
-            <Image src="/img/cart.png" width="30px" height="30px"  alt="cart"/>
-            <div className={styles.counter}> 2</div>
-            </div>
+        <div className={styles.cart}>
+          <Image src="/img/cart.png" width="30px" height="30px" alt="cart" />
+          <div className={styles.counter}> 2</div>
+        </div>
       </div>
     </div>
   );
